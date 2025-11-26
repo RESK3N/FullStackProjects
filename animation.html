@@ -1,0 +1,39 @@
+<!DOCTYPE >
+<html lang="en">
+  <head>
+    <title>Javascript Animation</title>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        border: 2px solid seagreen;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <script>
+      let x = 0;
+      let y = 0;
+      let div = document.querySelector("div");
+      let downward = true;
+
+      function move() {
+        if (downward) {
+          x++;
+          y++;
+          if (x == 500) downward = false;
+        } else {
+          x--;
+          y--;
+          if (x == 0) downward = true;
+        }
+        div.style.top = `${y}px`;
+        div.style.left = `${x}px`;
+      }
+      setInterval(move, 10);
+    </script>
+  </body>
+</html>
