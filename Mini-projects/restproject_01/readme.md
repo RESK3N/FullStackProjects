@@ -1,1 +1,2 @@
-hybrid mock rest API server using express and json mock data
+# Hybrid mock REST API server 
+### using `express` and `JSON` mock data
