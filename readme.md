@@ -1,8 +1,8 @@
 # Fullstack Projects with `HTML`, `CSS`, `Javascript` (`nodeJ`S,`Express`), `MongoDB`
 
 ## List of Directories
-* learning_curve -> Just some random files that helped learn the basics of `JS`
-* Mini-Project -> Small projects I built during the learning journey of `NodeJS` and `ExpressJS`
+* **learning_curve** -> Just some random files that helped learn the basics of `JS`
+* **Mini-Project** -> Small projects I built during the learning journey of `NodeJS` and `ExpressJS`
 
 
 
